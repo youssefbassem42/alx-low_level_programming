@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *	A main function -Entry point
- *	A C program that prints a word with function puts
- *	return : Always 0 (Success)
+ *	main - Entry point
+ *	Description: A C program that prints a word with function puts
+ *	Return: Always 0 (Success)
  */
 int main(void)
 {
