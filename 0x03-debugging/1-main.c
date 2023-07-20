@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-*
-* main - causes an infinite loop
+* main - Entry Point
 *
 * Return: is (0)
 *
