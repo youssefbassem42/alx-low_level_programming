@@ -32,10 +32,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (n);
 	}
 
-	while (temp->next)
-		temp = temp->next;
+	while (t->next)
+		t = t->next;
 
-	temp->next = n;
+	t->next = n;
 
 	return (n);
 }
