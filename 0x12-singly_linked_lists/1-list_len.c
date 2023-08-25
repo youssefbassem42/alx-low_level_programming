@@ -8,16 +8,16 @@
  * Return : number of elements in p
  */
 
-size_t ;ist_len(const list_t *p)
+size_t list_len(const list_t *p)
 {
-	size_t num = 0 ;
+	size_t num = 0;
 
 
-	while(p)
+	while (p)
 	{
 		num++;
 		p = p->next;
 
 	}
-	return(num);
+	return (num);
 }
