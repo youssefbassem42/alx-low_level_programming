@@ -4,10 +4,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * struct_listint_s - singly linkedlist
- * @n : integer value 
+ * struct listint_s - structure for singly linked list
+ * @n : integer value
  * @next : pointer that points to the next node
- * 
+ *
 */
 typedef struct listint_s
 {
@@ -41,4 +41,5 @@ listint_t *reverse_listint(listint_t **head);
 
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
+
 #endif

@@ -22,7 +22,7 @@ size_t loop_listint_len(const listint_t *head)
 
 	Preveious = head->next;
 	Next = (head->next)->next;
-    
+
 	while (Next)
 	{
 		if (Preveious == Next)
@@ -85,4 +85,5 @@ size_t print_listint_safe(const listint_t *head)
 	}
 
 	return (nodes);
+
 }

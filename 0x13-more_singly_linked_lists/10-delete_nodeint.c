@@ -9,7 +9,7 @@
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-    listint_t *temp_point = *head;
+	listint_t *temp_point = *head;
 	listint_t *marker = NULL;
 	unsigned int i = 0;
 
@@ -35,4 +35,5 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	free(marker);
 
 	return (1);
+
 }

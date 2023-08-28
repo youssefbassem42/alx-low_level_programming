@@ -9,11 +9,12 @@
 
 size_t listint_len(const listint_t *p)
 {
-    size_t numberOfNodes = 0;
-    while(p)
-    {
-        numberOfNodes++;
-        p = p->next;
-    }
-    return (numberOfNodes);
+	size_t numberOfNodes = 0;
+
+	while (p)
+	{
+		numberOfNodes++;
+		p = p->next;
+	}
+	return (numberOfNodes);
 }
