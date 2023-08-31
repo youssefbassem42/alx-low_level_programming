@@ -6,10 +6,10 @@
  */
 void print_binary(unsigned long int n)
 {
-	int  counter = 0;
+	int i, counter = 0;
 	unsigned long int c;
 
-	for (int i = 63; i >= 0; i--)
+	for (i = 63; i >= 0; i--)
 	{
 		c = n >> i;
 
