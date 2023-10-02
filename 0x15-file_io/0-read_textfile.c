@@ -1,6 +1,12 @@
 #include "main.h"
 
-/***/
+/**
+ * read_textfile - Read text file print
+ * @filename: text to read
+ * @letters: number of letters
+ * Return: 0 if the filename is NULL or function fail to read,
+ *	acutal number of bytes if success
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
