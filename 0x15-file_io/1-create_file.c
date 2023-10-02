@@ -1,6 +1,11 @@
 #include "main.h"
 
-/***/
+/**
+ * create_file - create file
+ * @filename: pointer to name if file
+ * @text_content: pointer to string
+ * Return: -1 if fails
+ */
 
 int create_file(const char *filename, char *text_content)
 {
