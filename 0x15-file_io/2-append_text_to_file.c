@@ -4,7 +4,8 @@
  * @filename: the file name
  * @text_content: string to add
  * Return: NULL or -1 if filename is NULL or fails,
- *	1 if success*/
+ *	1 if success
+ */
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int o, w, len = 0;
@@ -28,4 +29,3 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	return (1);
 }
-
