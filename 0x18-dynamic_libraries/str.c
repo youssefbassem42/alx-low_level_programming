@@ -65,7 +65,7 @@ void _puts(char *s)
  * @str: the string passed to the function
  *
  * Return: 0 if there is no numbers in the string , the converted string into number if there is numbers
-*/
+ */
 int _atoi(char *s)
 {
 	int i, sign = 1, flag = 0, output;
